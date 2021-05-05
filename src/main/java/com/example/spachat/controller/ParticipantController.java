@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.*;
 
 @RestController
 @AllArgsConstructor
-@RequestMapping("/api/v1/participant")
+@RequestMapping("/api/participant")
 public class ParticipantController {
     private final ParticipantService participantService;
 
